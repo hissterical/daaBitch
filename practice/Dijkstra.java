@@ -11,6 +11,8 @@ public class Dijkstra {
                 graph[i][j] = sc.nextInt();
         djikstra(graph, 0);
     }
+
+    
     public static void djikstra(int[][] graph, int src) {
         int v = graph.length;
         int[] dist = new int[v];
